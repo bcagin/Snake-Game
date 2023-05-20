@@ -1,12 +1,12 @@
-Snake Game
+**#Snake Game**
 
 This is a simple implementation of the classic Snake game using Python. The game is played on a grid where the player controls a snake, and the objective is to eat as much food as possible without colliding with the walls or the snake's own body. The snake grows longer each time it eats food, making it progressively harder to navigate.
 
-Getting Started
+**Getting Started**
 
 These instructions will help you get a copy of the Snake game up and running on your local machine.
 
-Prerequisites
+**Prerequisites**
 
 To run the Snake game, you need to have the following installed:
 
@@ -18,14 +18,14 @@ Copy code
 git clone https://github.com/bcagin/snake-game.git
 Alternatively, you can download the repository as a ZIP file and extract it.
 
-Gameplay
+**Gameplay**
 
 Use the arrow keys (up, down, left, right) to control the snake's direction.
 The snake will continuously move in the chosen direction until it hits a wall or itself.
 The objective is to eat the food (designated by a yellow block) to increase your score and the length of the snake.
 The game ends if the snake collides with a wall or its own body.
 
-Customization
+**Customization**
 
 You can customize the game by modifying the following parameters in the main.py file:
 
@@ -37,6 +37,6 @@ SNAKE_COLOR: The color of the snake's body.
 BG_COLOR: The background color of the game window.
 Feel free to tweak these parameters and experiment with different settings!
 
-Acknowledgments
+**Acknowledgments**
 
 This Snake game implementation is based on the tutorial by Angela Yu's The Complete Python Pro Bootcamp for 2023: (https://www.udemy.com/course/100-days-of-code/)
